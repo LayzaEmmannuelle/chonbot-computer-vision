@@ -31,7 +31,7 @@ O objetivo principal desta etapa é construir uma **"ponte de dados"** confiáve
 
 * **[Python 3.12+](https://www.python.org/)**
 * **[Ultralytics YOLOv8](https://ultralytics.com/yolov8)** (Deep Learning para Deteção de Objetos)
-* **[OpenCV](https://opencv.org/)** (`cv2` - Processamento de Imagem)
+* **[OpenCV](https://opencv.org/)** (`cv2` — Processamento de Imagem)
 * **[Flask](https://flask.palletsprojects.com/)** (Interface e transmissão de dados)
 
 ---
@@ -42,5 +42,43 @@ Siga os passos abaixo para configurar e executar o ambiente de visão computacio
 
 ### 1. Clonar o Repositório
 ```bash
-git clone [https://github.com/teu-utilizador/chonbot-computer-vision.git](https://github.com/teu-utilizador/chonbot-computer-vision.git)
+git clone https://github.com/teu-utilizador/chonbot-computer-vision.git
 cd chonbot-computer-vision
+```
+
+### 2. Criar e Ativar o Ambiente Virtual (`venv`)
+
+* **No Windows (PowerShell):**
+  ```powershell
+  python -m venv venv_visao
+  .\venv_visao\Scripts\Activate.ps1
+  ```
+
+* **No Linux / macOS:**
+  ```bash
+  python3 -m venv venv_visao
+  source venv_visao/bin/activate
+  ```
+
+### 3. Instalar as Dependências
+```bash
+pip install --upgrade pip
+pip install opencv-python ultralytics flask
+```
+
+### 4. Executar o Script de Deteção
+```bash
+python train_local.py
+```
+
+---
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir *issues* ou enviar *pull requests* para melhorias no modelo, otimizações de código ou novas funcionalidades.
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença [MIT](LICENSE).
