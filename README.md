@@ -32,7 +32,6 @@ O objetivo principal desta etapa é construir uma **"ponte de dados"** confiáve
 * **[Python 3.12+](https://www.python.org/)**
 * **[Ultralytics YOLOv8](https://ultralytics.com/yolov8)** (Deep Learning para Deteção de Objetos)
 * **[OpenCV](https://opencv.org/)** (`cv2` — Processamento de Imagem)
-* **[Flask](https://flask.palletsprojects.com/)** (Interface e transmissão de dados)
 
 ---
 
@@ -71,11 +70,7 @@ pip install opencv-python ultralytics flask
 python train_local.py
 ```
 
----
 
-## 🤝 Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir *issues* ou enviar *pull requests* para melhorias no modelo, otimizações de código ou novas funcionalidades.
 
 ---
 
